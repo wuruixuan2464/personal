@@ -15,7 +15,7 @@ title: Hello World
     git push -u origin main
 
     # 推送
-    git remote add origin https://github.com/wuruixuan2464/personal.git
-    git branch -M main
-    git push -u origin main
+    git add .
+    git commit -m '提交说明'
+    git push
 ```

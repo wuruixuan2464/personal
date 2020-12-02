@@ -118,3 +118,4 @@ display:
   height: 300
 mobile:
   show: true  #是否在手机进行显示
+  scale: 0.7
