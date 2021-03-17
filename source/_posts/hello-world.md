@@ -31,4 +31,6 @@ OpenSSL SSL_connect: Connection was reset in connection to github.com:443
 解决方法
 
 git config --global http.sslVerify false
+git config --global --add remote.origin.proxy ""
+
 ```
