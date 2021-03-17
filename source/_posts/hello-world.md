@@ -23,6 +23,9 @@ title: Hello World
 ## 一般报错
 
 ```bash
+这是服务器的SSL证书没有经过第三方机构的签署，所以报错。
+OpenSSL SSL_read: Connection was reset, errno 10054
+
 OpenSSL SSL_connect: Connection was reset in connection to github.com:443
 
 解决方法
