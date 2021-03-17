@@ -19,3 +19,13 @@ title: Hello World
     git commit -m '提交说明'
     git push
 ```
+
+## 一般报错
+
+```bash
+OpenSSL SSL_connect: Connection was reset in connection to github.com:443
+
+解决方法
+
+git config --global http.sslVerify false
+```
